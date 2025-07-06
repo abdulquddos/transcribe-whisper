@@ -26,7 +26,6 @@ def transcribe_directory(audio_directory):
     print("All transcriptions completed and saved to output.txt.")
 
 if __name__ == "__main__":
-    # Directory containing MP3 files
-    audio_directory = "/mnt/c/ITOpsTalk/Recordings"  # Update this path to your directory
+    # ✅ Corrected path to your MP3 files
+    audio_directory = "/mnt/c/Users/Abdul/Music/SpeechAudio"
     transcribe_directory(audio_directory)
-
